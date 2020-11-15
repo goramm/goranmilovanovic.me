@@ -1,0 +1,7 @@
+@mixin rotate-text($num-letters: 100, $step: 6) {
+  @for $i from 1 through $num-letters {
+    .char-#{$i} {
+      transform: rotate(($i * $step) + deg);
+    }
+  }
+}

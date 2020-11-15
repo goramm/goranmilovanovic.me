@@ -1,0 +1,56 @@
+{
+  "personal": [
+    { 
+      "label": "Name",
+      "value": "Goran Milovanovic"
+    },
+    { 
+      "label": "Birthday",
+      "value": "09/23/1976"
+    },
+    { 
+      "label": "Nationality",
+      "value": "Bosnia and Herzegovina"
+    },
+    { 
+      "label": "Languages",
+      "value": "Croatian, English"
+    }
+  ],
+  "contact": [
+    {
+      "label": "Mobile",
+      "value": "+385 95 8565 739",
+      "link": "tel: +385958565739"
+    },
+    {
+      "label": "Email",
+      "value": "goramm@gmail.com",
+      "link": "mailto: goramm@gmail.com"
+    },
+    {
+      "label": "Web",
+      "value": "goranmilovanovic.me",
+      "link": "https://goranmilovanovic.me"
+    },
+    {
+      "label": "Address",
+      "value": "Ulica grada Vukovara 239 A3, Zagreb 10000, Croatia",
+      "link": "https://www.google.com/maps/place/A3,+Ul.+grada+Vukovara+239,+10000,+Zagreb/@45.8014483,15.9906829,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d645465292c5:0x2be53d55a06626dc!8m2!3d45.8014483!4d15.9928716"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "link": "https://github.com/goramm/"
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/goran-milovanovi%C4%87-a201ba97/"
+    },
+    {
+      "name": "Beap",
+      "link": "https://beap.co"
+    }
+  ]
+}

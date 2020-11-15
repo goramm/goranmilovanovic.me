@@ -1,0 +1,87 @@
+.history {
+  margin-bottom: 3rem;
+  .history-item {
+    display: flex;
+    color: $gray-600;
+    &:first-child {
+      .history-date {
+        &::after {
+          top: 20px;
+        }
+      }
+    }
+  }
+
+  .history-date {
+    position: relative;
+    margin-right: 4rem;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 12px;
+      right: -3rem;
+      height: 17px;
+      width: 17px;
+      background-color: $gray-900;
+      border-radius: 50%;
+      display: inline-block;
+      z-index: 2;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -2.5rem;
+      width: 1px;
+      height: 100%;
+      background-color: $gray-300;
+      z-index: 1;
+    }
+    .title {
+      position: relative;
+      background-color: $gray-900;
+      color: $white;
+      padding: 0.5rem;
+      min-width: 6rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      &::after {
+        content: '';
+        border-top: 1.25rem solid transparent;
+        border-bottom: 1.25rem solid transparent;
+        border-left: 1.25rem solid $gray-900;
+        position: absolute;
+        top: 0;
+        right: -1.25rem;
+      }
+    }
+  }
+
+  .history-position {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.625rem;
+    text-transform: uppercase;
+    color: $gray-800;
+  }
+
+  .history-employer {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .history-technology {
+    font-style: italic;
+    padding-bottom: 2rem;
+  }
+}
+
+.education {
+  .history-content {
+    margin-bottom: 2rem;
+  }
+}

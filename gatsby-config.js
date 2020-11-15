@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Goran Milovanovic`,
+    slogan: `Software developer`,
+    description: `Software engineer with more than 15 years experience in development web, mobile and desktop applications.`,
+    author: `Goran Milovanovic`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,8 +28,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Montserrat\:400,600,800`,
+          `Fira+Sans\:300,400,400i,500,700`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
+    },
+    'gatsby-plugin-sass',
   ],
-}
+};

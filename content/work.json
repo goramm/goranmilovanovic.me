@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2017",
+    "position": "CTO",
+    "responsibility": "Frontend and backend web development, React Native mobile development, Software architect",
+    "technology": "React, Redux, Mobx, Angular, Node.js, Ruby on Rails, PHP, TypeScript",
+    "employer": "Beap Labs Ltd, Zagreb, Croatia"
+  },
+  {
+    "date": "2015",
+    "position": "Senior developer",
+    "responsibility": "Frontend and backend web development",
+    "technology": "React, Redux, Backbone, Ruby on Rails",
+    "employer": "Effectiva studio Ltd, Zagreb, Croatia"
+  },
+  {
+    "date": "2014",
+    "position": "Web developer",
+    "responsibility": "Frontend and backend web development",
+    "technology": "Backbone, Java",
+    "employer": "Asseco SEE Ltd, Zagreb, Croatia"
+  },
+  {
+    "date": "2013",
+    "position": "Full stack web developer",
+    "responsibility": "Frontend and backend web development, Mobile developement",
+    "technology": "ASP.NET MVC, Sitefinity, Sitekit, PhoneGap",
+    "employer": "Interactive1 Ltd, Zagreb, Croatia"
+  },
+  {
+    "date": "2012",
+    "position": "Full stack web developer",
+    "responsibility": "Frontend and backend web development",
+    "technology": "PHP, Drupal",
+    "employer": "Pomar Ltd, Zagreb, Croatia"
+  },
+  {
+    "date": "2011",
+    "position": "Full stack web developer",
+    "responsibility": "Frontend and backend web development",
+    "technology": "PHP, Drupal",
+    "employer": "Poslovni Studio Mandala, Zagreb, Croatia"
+  },
+  {
+    "date": "2002",
+    "position": "Assistant at Music Pedagogy Department",
+    "responsibility": "Harmony, Polyphony, Musical Forms and Styles",
+    "technology": "",
+    "employer": "Music academy, East Sarajevo, Bosnia and Herzegovina"
+  }
+]

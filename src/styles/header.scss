@@ -1,0 +1,60 @@
+.header {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+  letter-spacing: 4px;
+  &::after {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    bottom: -2rem;
+    right: -2rem;
+    filter: blur(2px);
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+    z-index: 1;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+  }
+
+  .subtitle {
+    position: relative;
+    z-index: 1;
+    border: 2px solid $white;
+    padding: 0.625rem 1rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    &::before {
+      content: '';
+      width: 200px;
+      height: 2px;
+      background-color: $white;
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      transform: translate(-100%, -50%);
+    }
+    &::after {
+      content: '';
+      width: 200px;
+      height: 2px;
+      background-color: $white;
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translate(100%, -50%);
+    }
+  }
+}

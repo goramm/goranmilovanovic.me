@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2020",
+    "name": "Archibrix",
+    "role": "Full stack web developer",
+    "description": "Archibrix is an online platform that offers a new home to architectural living concepts, ideas, and designs.",
+    "technology": "Ruby on Rails, PostgreSQL"
+  },
+  {
+    "date": "2019",
+    "name": "Komyoon",
+    "role": "Full stack web developer",
+    "description": "Komyoon is a service that brings professional artists and the professionals who hire them together in one place.",
+    "technology": "Ruby on Rails, Python, Flask"
+  },
+  {
+    "date": "2019",
+    "name": "Kleer",
+    "role": "Full stack web developer",
+    "description": "Kleer is an advanced, cloud-based platform that enables dentists to easily design and manage their own Membership Plan and offer it directly to their patients.",
+    "technology": "Node.js, TypeScript, MySQL, Sequelize, JSON API, Stripe, Docker, React, Redux"
+  },
+  {
+    "date": "2018",
+    "name": "Vuiver",
+    "role": "Software architect, React native mobile and backend developer",
+    "description": "React native mobile app for events with social network support.",
+    "technology": "Node.js, React native, Redux, TypeScript, Fabric"
+  },
+  {
+    "date": "2018",
+    "name": "Sunoco",
+    "role": "Full stack web developer",
+    "description": "As the official fuel of NASCAR, Sunoco is known for quality fuel that keeps you moving. Find a gas station near you, apply for a credit card, or sign up for a rewards card today.",
+    "technology": "Node.js, AngularJS, Typescript, MySQL, MongoDB, Redis, SQS, Sequelize, Swagger, Docker"
+  },
+  {
+    "date": "2017",
+    "name": "EDHP",
+    "role": "React native mobile developer",
+    "description": "React native mobile app for tracking check-in/check-out of hospital staff and patients.",
+    "technology": "React native, Redux, Fabric"
+  },
+  {
+    "date": "2017",
+    "name": "Nabucco Shop",
+    "role": "Frontend web developer",
+    "description": "Nabucco eProcurement B2B web shop with multicart support.",
+    "technology": "Angular, Protactor, Jasmine, Selenium, Webpack"
+  },
+  {
+    "date": "2016",
+    "name": "Chatbot – Marriott Hotels",
+    "role": "Frontend web developer",
+    "description": "Development and integration of AI chatbot in existing solution, used for customer interaction.",
+    "technology": "React, Mobx, Webpack"
+  },
+  {
+    "date": "2016",
+    "name": "3LHD – Volume3",
+    "role": "Frontend web developer",
+    "description": "Volume3 or 3LHD Office is a comprehensive solution that combines most of the existing processes of the architectural office into a unique business solution. It is used to plan activities, cost estimation, resource management, project implementation tracking, comparison of plan realization and project control.",
+    "technology": "React, Redux, Webpack"
+  },
+  {
+    "date": "2014",
+    "name": "PFM",
+    "role": "Frontend and backend developer",
+    "description": "Volume3 or 3LHD Office is a comprehensive solution that combines most of the existing processes of the architectural office into a unique business solution. It is used to plan activities, cost estimation, resource management, project implementation tracking, comparison of plan realization and project control.",
+    "technology": "Backbone, jQuery, Grunt Java, Java Servlet Technology, Oracle Database"
+  }
+]
