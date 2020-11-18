@@ -85,3 +85,30 @@
     margin-bottom: 2rem;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .history {
+    .history-item {
+      flex-direction: column;
+    }
+    .history-date {
+      margin-right: 0;
+      &::before {
+        display: none;
+      }
+      &::after {
+        display: none;
+      }
+      .title {
+        background: $white;
+        color: $black;
+        border-bottom: 2px solid $black;
+        text-align: left;
+        padding-left: 0;
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

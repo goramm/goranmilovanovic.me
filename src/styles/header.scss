@@ -58,3 +58,12 @@
     }
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .header {
+    letter-spacing: 2px;
+    .title {
+      letter-spacing: 3px;
+    }
+  }
+}

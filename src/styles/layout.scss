@@ -8,3 +8,11 @@
     padding: 3rem;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .layout {
+    .main-col {
+      padding: 2rem;
+    }
+  }
+}
