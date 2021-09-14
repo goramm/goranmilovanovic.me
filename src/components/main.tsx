@@ -10,12 +10,12 @@ const Main = () => {
         <h2 className="section-title">About me</h2>
         <p>
           I have been programming since 2001 and I have worked on projects in
-          most programming languages: VB, C++, C#, Java, PHP, JavaScript and
+          most programming languages: VB, C++, C#, Java, PHP, JavaScript, and
           Ruby.
         </p>
         <p>
-          More than 15 years in the world of software development has helped me
-          gain a wide range of knowledge and skills for developing web, desktop
+          More than 15 years in the world of software development have helped me
+          gain a wide range of knowledge and skills for developing web, desktop,
           and mobile applications.
         </p>
       </section>
